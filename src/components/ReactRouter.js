@@ -1,4 +1,4 @@
-import React,{Component} from "react";
+import React, {Component} from "react";
 
 class ReactRouter extends Component {
 
@@ -7,6 +7,7 @@ class ReactRouter extends Component {
             <div>
                 <h1>path="/"</h1>
                 <h3>reactRouter</h3>
+                <img src={require("../img/1.png")} alt="error 1"/>
             </div>
         );
     }
