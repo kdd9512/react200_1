@@ -16,10 +16,11 @@ class App extends Component {
                 <Routes>
                     <Route path="/" element={<ReactRouter/>}/>
                     <Route path="/router2" element={<ReactRouter2/>}/>
+                    {/*R094_reactDebounce*/}
+                    <Route exact path="debounce" element={<R094/>}/>
                     {/*R095_reactThrottle*/}
                     <Route exact path="/throttle" element={<R095/>}/>
                 </Routes>
-                <R094/>
                 <Footer/>
             </div>
         );
