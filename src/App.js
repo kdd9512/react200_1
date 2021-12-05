@@ -6,6 +6,7 @@ import Footer from "./components/template/Footer";
 import Header from "./components/template/Header";
 import R094 from "./components/R094_reactDebounce";
 import R095 from "./components/R095_reactThrottle";
+import R096 from "./components/R096_floatingPopulationList";
 
 // const App = () => {
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
                     <Route exact path="debounce" element={<R094/>}/>
                     {/*R095_reactThrottle*/}
                     <Route exact path="/throttle" element={<R095/>}/>
+                    <Route path="/floatingPopulationList" element={<R096/>}/>
                 </Routes>
                 <Footer/>
             </div>
